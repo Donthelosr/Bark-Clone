@@ -1,0 +1,409 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body{
+	font-family: 'Quicksand';
+}
+.navbar{
+	padding-top: 1vh;
+	background-color: white;
+	border-bottom: 2px solid ghostwhite;
+}
+.nav-image{
+	width: 50%;
+	
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#008000' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+	
+}
+.navbar-toggler{
+	border-color: dodgerblue;
+	color: blue;
+}
+
+
+.button-nav{
+	background-color: dodgerblue;
+	color: white;
+	border: 1px solid dodgerblue;
+	border-radius: 6px;
+	padding: 4px 6px;
+	font-weight: bold;
+	text-decoration: none;
+	transition-duration: 1s;
+}
+
+.button-nav:hover{
+	background-color: royalblue;
+	text-decoration: none;
+	border: 1px solid royalblue;
+	color: white;
+}
+
+.nav-item{
+	color: black;
+	font-weight: bold;
+}
+.nav-icon{
+	color: white;
+	margin-right: .5vw;
+}
+
+
+
+
+.intro{
+	background-color: white;
+	text-align: center;
+	
+	padding: 10vh 15vw;
+	
+}
+
+.intro-title{
+	font-size: 65px;
+	font-weight: bold;
+	color: black;
+}
+.intro-subtitle{
+	font-size: 35px;
+	color: black;
+	font-weight: bold;
+}
+.intro-description{
+	font-size: 22px;
+	color: #A7A7A7;
+	font-weight: bold;
+}
+.intro-button{
+	background-color: dodgerblue;
+	color: white;
+	padding: 10px 15px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 8px;
+	border: 1px solid dodgerblue;
+	-webkit-box-shadow: 5px 5px 8px -2px rgba(0,0,0,0.51); 
+box-shadow: 5px 5px 8px -2px rgba(0,0,0,0.51);
+	margin-top: 3vh;
+}
+
+.about{
+	background-color:ghostwhite;
+	margin-top: 15vh;
+	padding-bottom: 10vh;
+}
+
+.about-title{
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 15vh;
+	padding-left: 5vw;
+	color: black;
+}
+.about-subtitle{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 2vh;
+	padding-left: 5vw;
+}
+
+.about-image{
+	margin-top: -10vh;
+	width: 100%;
+}
+@media only screen and (max-width: 1200px) {
+ .about-image {
+    margin-top: 4vh;
+	 width: 60%;
+	 display: block;
+	 text-align: center;
+  }
+}
+@media only screen and (max-width: 800px) {
+ .about-image {
+    margin-top: 4vh;
+	 width: 80%;
+	 display: block;
+	 text-align: center;
+  }
+}
+
+
+.pricing{
+	background-color: white;
+	margin-top: 15vh;
+	padding-bottom: 10vh;
+}
+
+.pricing-title{
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 15vh;
+	padding-right: 5vw;
+	color: black;
+}
+.pricing-subtitle{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 2vh;
+	padding-right: 5vw;
+}
+
+.pricing-image{
+	margin-top: -10vh;
+	width: 100%;
+}
+@media only screen and (max-width: 1200px) {
+ .pricing-image {
+    margin-top: 4vh;
+	 width: 60%;
+	 display: block;
+	 text-align: center;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+ .pricing-image {
+    margin-top: 4vh;
+	 width: 80%;
+	 display: block;
+	 text-align: center;
+  }
+}
+
+
+.register{
+	background-color:ghostwhite;
+	margin-top: 15vh;
+	padding-bottom: 10vh;
+}
+
+.register-title{
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 15vh;
+	padding-left: 5vw;
+	color: black;
+}
+.register-subtitle{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 2vh;
+	padding-left: 5vw;
+}
+
+.register-image{
+	margin-top: -10vh;
+	width: 100%;
+}
+@media only screen and (max-width: 1200px) {
+ .register-image {
+    margin-top: 4vh;
+	 width: 60%;
+	 display: block;
+	 text-align: center;
+  }
+}
+@media only screen and (max-width: 800px) {
+ .register-image {
+    margin-top: 4vh;
+	 width: 80%;
+	 display: block;
+	 text-align: center;
+  }
+}
+
+
+.benefits{
+	background-color: white;
+	margin-top: 15vh;
+	padding-bottom: 10vh;
+}
+
+.benefits-title{
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 15vh;
+	padding-right: 5vw;
+	color: black;
+}
+.benefits-subtitle{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 2vh;
+	padding-right: 5vw;
+}
+
+.benefits-image{
+	margin-top: -10vh;
+	width: 100%;
+}
+@media only screen and (max-width: 1200px) {
+ .benefits-image {
+    margin-top: 4vh;
+	 width: 80%;
+  }
+}
+@media only screen and (max-width: 800px) {
+ .benefits-image {
+    margin-top: 4vh;
+	 width: 80%;
+	 display: block;
+	 text-align: center;
+  }
+}
+
+
+.start{
+	background-color: ghostwhite;
+	
+	padding-bottom: 10vh;
+}
+
+.start-title{
+	padding-top: 10vh;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 4vh;
+}
+
+.start-container{
+	
+}
+
+input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.form-inline {  
+  display: flex;
+
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.form-inline input {
+	
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+	border-radius: 6px;
+	-webkit-box-shadow: 5px 5px 8px -2px rgba(0,0,0,0.51); 
+box-shadow: 3px 3px 4px -4px rgba(0,0,0,0.51);
+}
+
+.form-inline button {
+  padding: 10px 15px;
+  background-color: dodgerblue;
+  border: 1px solid dodgerblue;
+  color: white;
+  cursor: pointer;
+	font-weight: bold;
+	border-radius: 6px;
+	-webkit-box-shadow: 5px 5px 8px -2px rgba(0,0,0,0.51); 
+box-shadow: 5px 5px 8px -2px rgba(0,0,0,0.51);
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+}
+
+@media (max-width: 800px) {
+  .form-inline input {
+    margin: 10px 0;
+  }
+  
+  .form-inline {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+i{
+	color: black;
+}
+
+.icon{
+	font-size: 20px;
+	background-color: white;
+	border: 1px solid #C8C8C8;
+	padding: 5px 5px;
+	margin-bottom: 3vh;
+	border-radius: 6px;
+}
+
+.below-icon{
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.pad-icons{
+	margin: 5vh 15vw;
+}
+
+footer{
+	padding-top: 10vh;
+}
+
+.footer-title{
+	font-weight: bold;
+	font-size: 15px;
+}
+.footer-link{
+	color: #C8C8C8;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.footer-link:hover{
+	text-decoration: underline;
+	color:  #C8C8C8;
+}
+
+.footer-contact-link{
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.footer-contact-link:hover{
+	text-decoration: underline;
+	color:  black;
+}
+
+.open-footer{
+	color:  #C8C8C8;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.footer-icon{
+	padding-right: 1vw;
+	
+}
+
+.end-footer{
+	color: #C8C8C8;
+	font-weight: bold;
+	margin-bottom: 5vh;
+}
+
+.footer-hr{
+	margin: 10vh 0;
+}
+
+
